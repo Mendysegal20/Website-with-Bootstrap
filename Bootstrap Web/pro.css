@@ -1,0 +1,147 @@
+/* מדבר עם כל התגיות ומשפיע עליהם "*" */
+*{
+    /* מרחיב את הבורדר והפדינג כלפי פנים 
+    ולא כלפי חוץ כבברירת מחדל */
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: silver;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-floid{
+    width: 100%;
+    padding: 0 16px;
+}
+
+.container{
+    max-width: 1100px;
+    /* max-height: 3500px; */
+    margin: 0 auto;
+}
+
+header{
+    min-height: 80px;
+    background: white;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .search{
+    background-image: url(images/glass.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+header nav a:hover{
+    color: rgb(218, 135, 218)
+}
+
+.strip{
+    min-height: inherit;
+    background: #777;
+}
+
+.strip .container{
+    display: flex;
+    max-width: 100%;
+    min-height: inherit;
+}
+
+
+.strip .background{
+    min-height: inherit;
+    width: 100%;
+}
+
+main{
+    min-height: 200px;
+    margin: 0 8px;
+}
+
+main .container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 32px; */
+    /* padding: 8px; */
+    margin: 24px auto;
+}
+
+
+main .box{
+    width: 23%;
+    background: white;
+    text-align: center;
+}
+
+/* main .box h2{
+    background: aqua; 
+} */
+
+footer{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    background: rgb(27, 16, 40);
+}
+
+footer .box{
+    width: 21%;
+    color: white;
+    /* background: white; */
+    /* text-align: center; */
+}
+
+footer .box a{
+    padding: 8px;
+    color: rgb(222, 199, 199);
+    text-decoration: none;
+}
+
+footer .box a:hover{
+    color: rgb(218, 135, 218)
+}
+
+
+
+/* .strip .container{
+    max-width: 100%;
+    color: white;
+}
+
+.strip .background{
+    /* width: 100%; */
+/* } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
